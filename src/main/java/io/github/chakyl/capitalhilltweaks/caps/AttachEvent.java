@@ -1,0 +1,24 @@
+package io.github.chakyl.capitalhilltweaks.caps;
+
+import io.github.chakyl.capitalhilltweaks.Croptania;
+import io.github.chakyl.capitalhilltweaks.blocks.CropnoliaBlockEntity;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraftforge.event.AttachCapabilitiesEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
+import vazkii.botania.api.BotaniaForgeClientCapabilities;
+import vazkii.botania.api.block_entity.BindableSpecialFlowerBlockEntity;
+import vazkii.botania.forge.CapabilityUtil;
+
+@Mod.EventBusSubscriber
+public class AttachEvent {
+    @SubscribeEvent
+    public static void attachBlockEntityCapabilities(AttachCapabilitiesEvent<BlockEntity> event) {
+        if (event.getObject() instanceof CropnoliaBlockEntity cropnoliaBlockEntity) {
+            event.addCapability(new ResourceLocation(Croptania.MODID, "wand_hud"),
+                    CapabilityUtil.makeProvider(BotaniaForgeClientCapabilities.WAND_HUD,
+                            new BindableSpecialFlowerBlockEntity.BindableFlowerWandHud<>(cropnoliaBlockEntity)));
+        }
+    }
+}
