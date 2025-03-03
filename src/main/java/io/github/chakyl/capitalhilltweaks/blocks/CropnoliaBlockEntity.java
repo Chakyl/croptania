@@ -48,6 +48,7 @@ public class CropnoliaBlockEntity extends GeneratingFlowerBlockEntity {
 
                         level.addParticle(data, x + Mth.randomBetween(level.random, 0, 0.9f), y + Mth.randomBetween(level.random, 0.2f, 0.4f), z + Mth.randomBetween(level.random, 0, 0.9f), 0, 0, 0);
                     }
+                    break;
                 }
             }
             if (foundCrop) level.playSound(null, flowerPos, BotaniaSounds.terraBlade, SoundSource.BLOCKS, 1F, 1F);
