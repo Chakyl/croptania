@@ -1,7 +1,7 @@
-package io.github.chakyl.capitalhilltweaks.client;
+package io.github.chakyl.croptania.client;
 
-import io.github.chakyl.capitalhilltweaks.registry.BlockEntityRegistry;
-import io.github.chakyl.capitalhilltweaks.registry.BlockRegistry;
+import io.github.chakyl.croptania.registry.BlockEntityRegistry;
+import io.github.chakyl.croptania.registry.BlockRegistry;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Block;

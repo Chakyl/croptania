@@ -1,8 +1,8 @@
-package io.github.chakyl.capitalhilltweaks.registry;
+package io.github.chakyl.croptania.registry;
 
-import io.github.chakyl.capitalhilltweaks.Croptania;
-import io.github.chakyl.capitalhilltweaks.flowers.CropnoliaFloatingFlowerBlock;
-import io.github.chakyl.capitalhilltweaks.flowers.CropnoliaFlowerBlock;
+import io.github.chakyl.croptania.Croptania;
+import io.github.chakyl.croptania.flowers.CropnoliaFloatingFlowerBlock;
+import io.github.chakyl.croptania.flowers.CropnoliaFlowerBlock;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;

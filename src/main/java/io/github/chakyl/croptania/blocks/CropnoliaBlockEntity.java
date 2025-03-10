@@ -1,6 +1,6 @@
-package io.github.chakyl.capitalhilltweaks.blocks;
+package io.github.chakyl.croptania.blocks;
 
-import io.github.chakyl.capitalhilltweaks.registry.BlockEntityRegistry;
+import io.github.chakyl.croptania.registry.BlockEntityRegistry;
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.util.Mth;

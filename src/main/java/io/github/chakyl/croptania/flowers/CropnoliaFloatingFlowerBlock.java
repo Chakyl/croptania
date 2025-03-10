@@ -1,4 +1,4 @@
-package io.github.chakyl.capitalhilltweaks.flowers;
+package io.github.chakyl.croptania.flowers;
 
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import vazkii.botania.api.block_entity.SpecialFlowerBlockEntity;

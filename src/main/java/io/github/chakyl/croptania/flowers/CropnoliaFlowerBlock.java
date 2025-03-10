@@ -1,4 +1,4 @@
-package io.github.chakyl.capitalhilltweaks.flowers;
+package io.github.chakyl.croptania.flowers;
 
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.level.block.entity.BlockEntityType;

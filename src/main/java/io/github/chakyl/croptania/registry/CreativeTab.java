@@ -1,6 +1,6 @@
-package io.github.chakyl.capitalhilltweaks.registry;
+package io.github.chakyl.croptania.registry;
 
-import io.github.chakyl.capitalhilltweaks.Croptania;
+import io.github.chakyl.croptania.Croptania;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;

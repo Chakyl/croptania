@@ -1,4 +1,4 @@
-package io.github.chakyl.capitalhilltweaks.client;
+package io.github.chakyl.croptania.client;
 
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;

@@ -1,7 +1,7 @@
-package io.github.chakyl.capitalhilltweaks.caps;
+package io.github.chakyl.croptania.caps;
 
-import io.github.chakyl.capitalhilltweaks.Croptania;
-import io.github.chakyl.capitalhilltweaks.blocks.CropnoliaBlockEntity;
+import io.github.chakyl.croptania.Croptania;
+import io.github.chakyl.croptania.blocks.CropnoliaBlockEntity;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraftforge.event.AttachCapabilitiesEvent;

@@ -1,7 +1,7 @@
-package io.github.chakyl.capitalhilltweaks.registry;
+package io.github.chakyl.croptania.registry;
 
-import io.github.chakyl.capitalhilltweaks.Croptania;
-import io.github.chakyl.capitalhilltweaks.blocks.CropnoliaBlockEntity;
+import io.github.chakyl.croptania.Croptania;
+import io.github.chakyl.croptania.blocks.CropnoliaBlockEntity;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityType;
