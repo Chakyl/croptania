@@ -16,6 +16,4 @@ public class BlockRegistry {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Croptania.MODID);
     public static final RegistryObject<CropnoliaFlowerBlock> cropnolia = BLOCKS.register("cropnolia", () -> new CropnoliaFlowerBlock(MobEffects.REGENERATION, 60, BlockBehaviour.Properties.copy(Blocks.POPPY), BlockEntityRegistry.CROPNOLIA::get));
     public static final RegistryObject<CropnoliaFloatingFlowerBlock> cropnoliaFloating = BLOCKS.register("floating_cropnolia", () -> new CropnoliaFloatingFlowerBlock(BotaniaBlocks.FLOATING_PROPS, BlockEntityRegistry.CROPNOLIA::get));
-
-
 }
