@@ -1,0 +1,20 @@
+{
+  "name": "croptania.entry.cropnolia",
+  "category": "botania:generating_flowers",
+  "icon": "croptania:cropnolia",
+  "advancement": "botania:main/runic_altar_pickup",
+  "pages": [
+    {
+      "type": "text",
+      "text": "croptania.page.cropnolia0"
+    },
+    {
+      "type": "botania:petal_apothecary",
+      "text": "croptania.page.cropnolia1",
+      "recipe": "croptania:cropnolia"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "croptania:floating_cropnolia": 1
+  }
+}
